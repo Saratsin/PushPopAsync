@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage x:Class="PushPopAsync.SecondPage"
+             xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml">
+    <Label x:Name="CurrentButton"
+            Margin="30"
+            HorizontalOptions="Center"
+            VerticalOptions="Center"
+            Text="Second page" />
+</ContentPage>

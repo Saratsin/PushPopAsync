@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage x:Class="PushPopAsync.FirstPage"
+             xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml">
+    <StackLayout>
+		<ListView x:Name="CurrentListView"
+			      ItemTapped="OnItemTapped"/>
+        <Button x:Name="CurrentButton"
+                Margin="30"
+                HorizontalOptions="Start"
+                VerticalOptions="CenterAndExpand"
+                Clicked="OnButtonClicked"
+                Text="First Page" />
+    </StackLayout>
+</ContentPage>
